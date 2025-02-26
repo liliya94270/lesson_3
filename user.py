@@ -1,16 +1,13 @@
-class users:
-    def _init_ (self, first_name,last_name):
-    print("Мое имя" и "моя фамилия:"):
-    self.userfirst_name = first_name
-    self.userlast_name = last_name
+class User:
+    def __init__(self, first_name, last_name):
+        self.first_name = first_name
+        self.last_name = last_name
 
-    def prints_first_name(self):
-        print("мое имя", self.userfirst_name)
+    def get_first_name(self):
+        return self.first_name
 
+    def get_last_name(self):
+        return self.last_name
 
-    def prints_last_name(self):
-        print("моя фамилия", self.userlast_name)
-
-        def print_group(self):
-            print("мое имя","моя фамилия",self.userfirst_name, self.userlast_name)
-
+    def get_full_name(self):
+        return f"name: {self.first_name}, last: {self.last_name}"
