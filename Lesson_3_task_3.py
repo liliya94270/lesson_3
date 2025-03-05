@@ -1,9 +1,9 @@
 from address import Address
 from mailing import Mailing
 
-to_address = Address(index: "450000", city: "Уфа", street: "Цюрупа", house: "84", apartment: "6")
-from_addrees =Address(index: "450001", city: "Янаул", street: "Победы", house: "101", apartment: "3")
-mailing =Mailing(to_adress:"1247890h", from_addrees,  to_address track:"17" )
+to_address = Address(index= "450000", city: "Уфа", street: "Цюрупа", house: "84", apartment: "6")
+from_addrees =Address(index= "450001", city: "Янаул", street: "Победы", house: "101", apartment: "3")
+mailing =Mailing(to_address="1247890h", from_address,  to_address track:"17" )
 
 print(mailing)
 
