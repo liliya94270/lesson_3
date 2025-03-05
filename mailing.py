@@ -1,12 +1,11 @@
 class Mailing:
-    def __init__(self, to_adress, from_adress, cost, track):
-        self.Adress = to_adress
-        self.Adress = from_adress
-        self.Num =cost
-        self.Str = track
+    def __init__(self, to_address, from_address, cost, track):
+        self.Address = to_adress
+        self.cost =cost
+        self.track = track
 
-        def __str__(self):
-            return F"{self.Str} из {self.Adress} в {self.Adress}. Стоимость {self.Num} рублей"
+        def str(self):
+            return F"{self.Str} из {self.Address} в {self.Address}. Стоимость {self.Num} рублей"
         
 
         #В классе должно быть четыре поля:
