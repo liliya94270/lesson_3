@@ -1,5 +1,5 @@
 class Address:
-def __init__(self, index, city, street, house, apartment):
+def __init__ (self, index, city, street, house, apartment):
     self.index = index
     self.city = city
     self.street = street
@@ -7,7 +7,7 @@ def __init__(self, index, city, street, house, apartment):
     self.apartment = apartment
 
 
-    def __str__(self):
+    def __str__ (self):
        return f"{self.index}, {self.city}, {self.street}, {self.house}, {self.apartment}"
     
     #Класс должен содержать в себе поля:
